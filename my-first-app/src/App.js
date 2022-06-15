@@ -1,16 +1,12 @@
 import React from 'react';
 import './App.css';
 
-
-
-
-
-
 import First from './Components/First';
 import Second from './Components/Second';
 import Third from './Components/Third';
 import Title from './Components/Title';
 import SomeApp from './Components/SomeApp';
+import ComponentWithArrayOfData from './Components/ComponentWithArrayOfData';
 
 
 function App() {
@@ -21,6 +17,7 @@ function App() {
       <Second />
       <Third />
       <SomeApp />
+      <ComponentWithArrayOfData />
     </>
     );
 }
