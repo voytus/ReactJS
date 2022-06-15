@@ -1,46 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
-// import { Component } from "react";
+import React from 'react';
+import './App.css'; 
+import First from './Components/First';
+import Second from './Components/Second';
+import Third from './Components/Third';
 
-// const Styles = styled.div`
-//   .p {
-//     background-color: #222;
-//     font-size: 15px;
-//   }
-// `;
 
-// class SomeComponent extends Component {
-//   render() {
-//     return(
-//       <div>
-//       <h2>Henlo frens</h2>
-//       <p>It me</p>
-//       </div>  
-//     );
-//   }
-// }
-
-// export default SomeComponent;
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+    <React.Fragment>
+      <First />
+      <Second />
+      <Third />
+    </React.Fragment>
+    );
 }
-
 export default App;
+
+
+// import logo from './logo.svg';
+// import './App.css';
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//           Edit <code>src/App.js</code> and save to reload.
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Learn React
+//         </a>
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
