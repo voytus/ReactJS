@@ -8,12 +8,13 @@ const ComponentWithArrayOfData = () => {
     'Clean the windows',
     'Mow the lawn'
    ];
-
-   return {
-    <ol>
-            {arrayOfListItems.map(item => <li>(item)</li>)}}
-    </ol>
-   };
+  const listItems = arrayOfListItems.map(item => <li>(item)</li>);
+   return (
+        <ol>
+               {listItems}
+        </ol>
+   );
 
 };
+
 export default ComponentWithArrayOfData
