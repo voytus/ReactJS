@@ -8,11 +8,11 @@ import Third from './Components/Third';
 
 function App() {
     return (
-    <React.Fragment>
+    <>
       <First />
       <Second />
       <Third />
-    </React.Fragment>
+    </>
     );
 }
 export default App;
