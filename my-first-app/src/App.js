@@ -3,30 +3,20 @@ import './App.css';
 import First from './Components/First';
 import Second from './Components/Second';
 import Third from './Components/Third';
+import Title from './Components/Title';
 
-const Title = () => {
-  const title = 'My react App';
-  const el = <h1>Welocome to {title}</h1>;
 
-  return (
+function App() {
+    return (
     <>
-    {el}
+      <Title />
+      <First />
+      <Second />
+      <Third />
     </>
-  );
-
+    );
 }
-export default Title;
-
-// function App() {
-//     return (
-//     <>
-//       <First />
-//       <Second />
-//       <Third />
-//     </>
-//     );
-// }
-// export default App;
+export default App;
 
 
 // import logo from './logo.svg';
