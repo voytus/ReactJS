@@ -19,7 +19,7 @@ function App() {
       <Third />
       <SomeApp />
       <ComponentWithArrayOfData />
-            {/* <ComponentConditionalRender />   doestn't work as intended */}
+      <ComponentConditionalRender />  
       <ComponentConditionalLogicalRender />
     </>
     );
