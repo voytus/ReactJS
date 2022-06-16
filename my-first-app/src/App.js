@@ -9,6 +9,9 @@ import SomeApp from './Components/SomeApp';
 import ComponentWithArrayOfData from './Components/ComponentWithArrayOfData';
 import ComponentConditionalRender from './Components/ComponentConditionalRender';
 import ComponentConditionalLogicalRender from './Components/ComponentConditionalLogicalRender';
+import ComponentConditionalTernaryRender from './Components/ComponentConditionalTernaryRender';
+
+
 
 function App() {
     return (
@@ -20,6 +23,7 @@ function App() {
       <SomeApp />
       <ComponentWithArrayOfData />
       <ComponentConditionalRender />  
+      <ComponentConditionalTernaryRender />
       <ComponentConditionalLogicalRender />
     </>
     );
