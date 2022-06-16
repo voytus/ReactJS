@@ -7,7 +7,7 @@ import Third from './Components/Third';
 import Title from './Components/Title';
 import SomeApp from './Components/SomeApp';
 import ComponentWithArrayOfData from './Components/ComponentWithArrayOfData';
-
+import ComponentConditionalRender from './Components/ComponentConditionalRender';
 
 function App() {
     return (
@@ -18,6 +18,7 @@ function App() {
       <Third />
       <SomeApp />
       <ComponentWithArrayOfData />
+      <ComponentConditionalRender />
     </>
     );
 }
